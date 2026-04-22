@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=1200, initial-scale=1.0"/>
+<title>Fizza Amin </title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<!-- Cursor glow -->
+<div id="cursor-glow"></div>
+<!-- Scroll progress -->
+<div id="progress-bar"></div>
+
+<!-- ── NAVBAR ── -->
+<nav id="navbar">
+  <div class="nav-logo">Fizza</div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="nav-right">
+    <button class="theme-btn" id="themeBtn" title="Toggle theme">
+      <i class="fas fa-moon" id="themeIcon"></i>
+    </button>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ── ① HERO ── -->
+<section id="hero">
+  <div class="hero-bg-blob blob1"></div>
+  <div class="hero-bg-blob blob2"></div>
+  <div class="hero-bg-blob blob3"></div>
+
+  <div class="hero-inner">
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="dot"></span> Available for opportunities
+      </div>
+      <h1 class="hero-name">
+        <span class="line1">Hi, I'm</span>
+        <span class="line2">Fizza Amin</span>
+      </h1>
+      <p class="hero-sub">Computer Science Student &amp; Aspiring Web Developer crafting clean, user friendly digital experiences  one pixel at a time.</p>
+      <div class="hero-ctas">
+        <a href="#projects" class="btn btn-primary"><i class="fas fa-rocket"></i> View Projects</a>
+        <a href="#contact" class="btn btn-outline"><i class="fas fa-paper-plane"></i> Contact Me</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="avatar-card">
+        <div class="avatar-img-wrap">
+          <div class="avatar-ring"></div>
+          <div class="avatar-initials">F</div>
+        </div>
+        <div class="avatar-name">Fizza Amin</div>
+        <div class="avatar-role">CS Student · NUML Peshawar</div>
+        
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="scroll-hint">
+    <span>Scroll</span>
+    <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/>
+    </svg>
+  </div>
+</section>
+
+<!-- ── ② ABOUT ── -->
+<section id="about">
+  <div class="fade-up">
+    <div class="section-tag"><i class="fas fa-user-astronaut"></i> About Me</div>
+    <h2 class="section-title">A little about myself</h2>
+    <p class="section-sub">Passionate about building things for the web and designing interfaces people love.</p>
+  </div>
+
+  <div class="about-grid">
+    <div class="about-text fade-up">
+      <p>I'm <span>Fizza Amin</span>, a motivated <span>Graphic Designer (UI/UX)</span> and <span>BS Computer Science</span> student at <span>NUML Peshawar Campus</span> (2nd Semester, 2025–2029). I'm passionate about user-centered design and creating digital experiences that are both beautiful and functional.</p>
+      <p>I'm currently a <span>Web Development Intern at NAVTTC</span> and serving as <span>Graphic Designer</span> at the NUML Computing Society — applying my skills in real-world environments while continuing to grow as a developer and designer.</p>
+      <p>My academic journey includes strong results — <span>82.4%</span> in both HSSC (Warsak Model School &amp; College) and SSC (Centenial Model School Peshawar) — reflecting my dedication to excellence at every stage.</p>
+    </div>
+    <div class="info-cards fade-up">
+      <div class="info-card">
+        <div class="info-icon">🎓</div>
+        <div class="info-card-text">
+          <strong>University</strong>
+          <span>NUML Peshawar Campus</span>
+        </div>
+      </div>
+      <div class="info-card">
+        <div class="info-icon">📚</div>
+        <div class="info-card-text">
+          <strong>Degree</strong>
+          <span>BS Computer Science · 2nd Semester</span>
+        </div>
+      </div>
+      <div class="info-card">
+        <div class="info-icon">⭐</div>
+        <div class="info-card-text">
+          <strong>CGPA</strong>
+          <span>3.82 / 4.00 — Academic Excellence</span>
+        </div>
+      </div>
+      <div class="info-card">
+        <div class="info-icon">💼</div>
+        <div class="info-card-text">
+          <strong>Currently</strong>
+          <span>Web Dev Intern @ NAVTTC · Designer @ NUML CS Society</span>
+        </div>
+      </div>
+      <div class="info-card">
+        <div class="info-icon">📍</div>
+        <div class="info-card-text">
+          <strong>Location</strong>
+          <span>Peshawar, Pakistan</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── ③ SKILLS ── -->
+<section id="skills">
+  <div class="skills-wrap">
+    <div class="fade-up">
+      <div class="section-tag"><i class="fas fa-code"></i> Skills</div>
+      <h2 class="section-title">What I work with</h2>
+      <p class="section-sub">A growing toolkit of programming, development, and design skills built through study and real projects.</p>
+    </div>
+    <div class="skills-categories fade-up">
+
+      <div class="skill-group">
+        <div class="skill-group-title"><i class="fas fa-laptop-code"></i> Programming & Development</div>
+
+        <div class="skill-item">
+          <div class="skill-header">
+            <div class="skill-name"><span class="skill-icon">⚙️</span> C++ Programming</div>
+            <span class="skill-pct">75%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" data-w="75"></div></div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-header">
+            <div class="skill-name"><span class="skill-icon">☕</span> Java Programming</div>
+            <span class="skill-pct">65%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" data-w="65"></div></div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-header">
+            <div class="skill-name"><span class="skill-icon">🌐</span> HTML5</div>
+            <span class="skill-pct">85%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" data-w="85"></div></div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-header">
+            <div class="skill-name"><span class="skill-icon">🎨</span> CSS3</div>
+            <span class="skill-pct">80%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" data-w="80"></div></div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-header">
+            <div class="skill-name"><span class="skill-icon">⚡</span> JavaScript</div>
+            <span class="skill-pct">40%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" data-w="55"></div></div>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <div class="skill-group-title" style="color:var(--pink)"><i class="fas fa-paint-brush"></i> Design & Tools</div>
+
+        <div class="skill-item">
+          <div class="skill-header">
+            <div class="skill-name"><span class="skill-icon">🖥️</span> Figma</div>
+            <span class="skill-pct">60%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" data-w="80" style="background:linear-gradient(90deg,var(--pink),var(--accent))"></div></div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-header">
+            <div class="skill-name"><span class="skill-icon">🎭</span> Canva</div>
+            <span class="skill-pct">80%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" data-w="90" style="background:linear-gradient(90deg,var(--pink),var(--accent))"></div></div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-header">
+            <div class="skill-name"><span class="skill-icon">🎯</span> UI/UX Design</div>
+            <span class="skill-pct">75%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" data-w="75" style="background:linear-gradient(90deg,var(--pink),var(--accent))"></div></div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-header">
+            <div class="skill-name"><span class="skill-icon">🖌️</span> Graphic Design</div>
+            <span class="skill-pct">82%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" data-w="82" style="background:linear-gradient(90deg,var(--pink),var(--accent))"></div></div>
+        </div>
+
+        <div style="margin-top:1rem">
+          <div class="skill-cards-row">
+            <div class="skill-chip"><i class="fab fa-git-alt" style="color:#f1502f"></i> Git</div>
+            <div class="skill-chip"><i class="fab fa-github"></i> GitHub</div>
+            <div class="skill-chip">💻 VS Code</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── ③.⑤ EXPERIENCE ── -->
+<section id="experience">
+  <div class="fade-up">
+    <div class="section-tag"><i class="fas fa-briefcase"></i> Experience</div>
+    <h2 class="section-title">Where I've worked</h2>
+    <p class="section-sub">Real world roles where I'm applying my skills in development and design.</p>
+  </div>
+  <div class="experience-timeline fade-up">
+
+    <div class="exp-card">
+      <div class="exp-dot dev">💻</div>
+      <div class="exp-body">
+        <div class="exp-title">Web Development Intern</div>
+        <div class="exp-company">National Vocational and Technical Training Commission (NAVTTC)</div>
+        <div class="exp-place">NUML Peshawar, Pakistan</div>
+        <div class="exp-desc">Working on real world web development projects, applying HTML, CSS, and JavaScript skills in a professional training environment under industry mentors.</div>
+      </div>
+      <div class="exp-date">Feb 2026 – Present</div>
+    </div>
+
+    <div class="exp-card">
+      <div class="exp-dot design">🎨</div>
+      <div class="exp-body">
+        <div class="exp-title">Graphic Designer</div>
+        <div class="exp-company">NUML Computing Society Peshawar Campus</div>
+        <div class="exp-place">NUML Peshawar, Pakistan</div>
+        <div class="exp-desc">Creating visual content, event posters, social media graphics, and design assets for the university computing society using Figma and Canva.</div>
+      </div>
+      <div class="exp-date">April 2026 – Present</div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── ④ PROJECTS ── -->
+<section id="projects">
+  <div class="fade-up">
+    <div class="section-tag"><i class="fas fa-folder-open"></i> Projects</div>
+    <h2 class="section-title">Things I've built</h2>
+    <p class="section-sub">A selection of projects showcasing my development and design skills.</p>
+  </div>
+  <div class="projects-grid fade-up">
+
+    <div class="project-card">
+      <div class="project-thumb" style="background:linear-gradient(135deg,#1e1b4b,#4c1d95)">
+        <div class="project-thumb-inner">🛒</div>
+        <div class="p-badge">HTML/CSS</div>
+      </div>
+      <div class="project-body">
+        <div class="project-title">E-Commerce Landing Page</div>
+        <div class="project-desc">A fully responsive e-commerce landing page with a clean product showcase, hero banner, and call-to-action sections.</div>
+        <div class="project-tags">
+          <span class="p-tag">HTML</span><span class="p-tag">CSS</span><span class="p-tag">Responsive</span>
+        </div>
+        <div class="project-actions">
+          <a href="#" class="btn-sm btn-sm-primary">Live Demo</a>
+          <a href="#" class="btn-sm btn-sm-ghost"><i class="fab fa-github"></i> Code</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-thumb" style="background:linear-gradient(135deg,#0f172a,#1e3a5f)">
+        <div class="project-thumb-inner">🎨</div>
+        <div class="p-badge">Figma</div>
+      </div>
+      <div class="project-body">
+        <div class="project-title">Mobile App UI — FitTrack</div>
+        <div class="project-desc">A Figma prototype for a fitness tracking mobile app with modern UI patterns, dark theme, and custom icon set.</div>
+        <div class="project-tags">
+          <span class="p-tag">Figma</span><span class="p-tag">UI/UX</span><span class="p-tag">Prototype</span>
+        </div>
+        <div class="project-actions">
+          <a href="#" class="btn-sm btn-sm-primary">Live Demo</a>
+          <a href="#" class="btn-sm btn-sm-ghost"><i class="fab fa-figma"></i> Design</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-thumb" style="background:linear-gradient(135deg,#1a1a2e,#16213e)">
+        <div class="project-thumb-inner">📋</div>
+        <div class="p-badge">JavaScript</div>
+      </div>
+      <div class="project-body">
+        <div class="project-title">Task Manager App</div>
+        <div class="project-desc">A minimal to do and task management web app built with vanilla JavaScript, supporting CRUD operations and local persistence.</div>
+        <div class="project-tags">
+          <span class="p-tag">JS</span><span class="p-tag">HTML</span><span class="p-tag">CSS</span>
+        </div>
+        <div class="project-actions">
+          <a href="#" class="btn-sm btn-sm-primary">Live Demo</a>
+          <a href="#" class="btn-sm btn-sm-ghost"><i class="fab fa-github"></i> Code</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-thumb" style="background:linear-gradient(135deg,#1a0533,#4a1080)">
+        <div class="project-thumb-inner">🌐</div>
+        <div class="p-badge">HTML/CSS/JS</div>
+      </div>
+      <div class="project-body">
+        <div class="project-title">Personal Portfolio v1</div>
+        <div class="project-desc">My first personal portfolio website  the starting point of my web development journey, built from scratch.</div>
+        <div class="project-tags">
+          <span class="p-tag">HTML</span><span class="p-tag">CSS</span><span class="p-tag">JS</span>
+        </div>
+        <div class="project-actions">
+          <a href="#" class="btn-sm btn-sm-primary">Live Demo</a>
+          <a href="#" class="btn-sm btn-sm-ghost"><i class="fab fa-github"></i> Code</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-thumb" style="background:linear-gradient(135deg,#0c1a2e,#1a3a5c)">
+        <div class="project-thumb-inner">📰</div>
+        <div class="p-badge">Canva</div>
+      </div>
+      <div class="project-body">
+        <div class="project-title">Brand Identity Kit</div>
+        <div class="project-desc">A complete brand identity package designed in Canva — including logo, color palette, typography guide, and social media templates.</div>
+        <div class="project-tags">
+          <span class="p-tag">Canva</span><span class="p-tag">Branding</span><span class="p-tag">Design</span>
+        </div>
+        <div class="project-actions">
+          <a href="#" class="btn-sm btn-sm-primary">View Design</a>
+          <a href="#" class="btn-sm btn-sm-ghost">Preview</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card" style="border-style:dashed;border-color:rgba(167,139,250,.3);background:rgba(167,139,250,.03)">
+      <div class="project-thumb" style="background:rgba(167,139,250,.06);min-height:180px;display:flex;align-items:center;justify-content:center">
+        <div style="text-align:center;color:var(--text-d)">
+          <div style="font-size:3rem;margin-bottom:.5rem">✨</div>
+          <div style="font-size:.85rem">More coming soon</div>
+        </div>
+      </div>
+      <div class="project-body">
+        <div class="project-title" style="color:var(--text-m)">Next Project…</div>
+        <div class="project-desc">Always building something new. Check back soon for fresh projects and experiments.</div>
+        <div class="project-actions" style="margin-top:auto">
+          <a href="https://github.com/Fizzaamin" target="_blank" class="btn-sm btn-sm-ghost" style="flex:1;text-align:center"><i class="fab fa-github"></i> GitHub Profile</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── ⑤ CONTACT ── -->
+<section id="contact">
+  <div class="contact-wrap">
+    <div class="fade-up">
+      <div class="section-tag"><i class="fas fa-envelope"></i> Contact</div>
+      <h2 class="section-title">Let's connect</h2>
+      <p class="section-sub">Have a project idea, opportunity, or just want to say hi? My inbox is open.</p>
+    </div>
+    <div class="contact-grid fade-up">
+
+      <div class="contact-info">
+        <div class="contact-card c-phone">
+          <div class="contact-card-icon"><i class="fas fa-phone"></i></div>
+          <div>
+            <small>Phone</small>
+            <span>+92 312 3456787</span>
+          </div>
+        </div>
+        <div class="contact-card c-email">
+          <div class="contact-card-icon"><i class="fas fa-envelope"></i></div>
+          <div>
+            <small>Email</small>
+            <span>fizzaamin85@gmail.com</span>
+          </div>
+        </div>
+        <a href="https://www.linkedin.com/in/fizza-amin-912116395/" target="_blank" class="contact-card c-linkedin" style="text-decoration:none">
+          <div class="contact-card-icon"><i class="fab fa-linkedin-in"></i></div>
+          <div>
+            <small>LinkedIn</small>
+            <span>linkedin.com/in/fizza-amin</span>
+          </div>
+        </a>
+        <div style="padding:1rem 0 .5rem">
+          <div style="font-size:.75rem;color:var(--text-d);text-transform:uppercase;letter-spacing:.1em;margin-bottom:.8rem">Find me on</div>
+          <div class="social-row">
+            <a href="https://www.linkedin.com/in/fizza-amin-912116395/" target="_blank" class="social-btn li" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/Fizzaamin" target="_blank" class="social-btn gh" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-btn tw" title="Twitter/X"><i class="fab fa-x-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <div class="form-group">
+          <label>Your Name</label>
+          <input type="text" placeholder="e.g. Fizza Amin" id="f-name"/>
+        </div>
+        <div class="form-group">
+          <label>Email Address</label>
+          <input type="email" placeholder="your@email.com" id="f-email"/>
+        </div>
+        <div class="form-group">
+          <label>Message</label>
+          <textarea placeholder="Hi Fizza, I'd love to discuss…" id="f-msg"></textarea>
+        </div>
+        <button class="btn btn-primary form-submit" onclick="handleSend()">
+          <i class="fas fa-paper-plane"></i> Send Message
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── FOOTER ── -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-logo">Fizza Amin</div>
+    <ul class="footer-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="footer-copy">
+      © 2025 Fizza Amin ·  in Peshawar, Pakistan
+    </div>
+  </div>
+</footer>
+
+<!-- Toast -->
+<div class="toast" id="toast"><i class="fas fa-check-circle"></i> Message sent! I'll get back to you soon.</div>
+
+<script src="script.js"></script>
+</body>
+</html>
